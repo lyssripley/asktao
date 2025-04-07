@@ -1,0 +1,6 @@
+#!/bin/sh
+ulimit -c unlimited
+ulimit -n 8192
+
+./magic_Linux32 /r ./ /e /aaa/pack_data/lib_aaa32.pak/aaa/start_aaa.o /b /aaa/pack_data/lib_aaa32.pak /D _RELEASE /D AUTH= /D AUTH_MD5=767E51FE9E9A2F1EB5E689D74AA02426 /D INIT_SOCKET_SCANNER_TEMP /s 32 /D TRADITIONAL --max-process 128 --enable-socket-daemon 0
+

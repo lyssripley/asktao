@@ -1,0 +1,1 @@
+./driver -r service -o auth_srv.o -e pwd.o -w awk_pwdi -p 6666

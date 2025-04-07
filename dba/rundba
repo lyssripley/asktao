@@ -1,0 +1,5 @@
+#!/bin/sh
+
+ulimit -c unlimited
+ulimit -n 8192
+./magic_Linux32 /r ./ /e /dba/pack_data/lib_dba32.pak/dba/start_dba.o /b /dba/pack_data/lib_dba32.pak -m dba/dbamem.cfg /D _RELEASE /s 32 /D AUTH= /D AUTH_MD5=767E51FE9E9A2F1EB5E689D74AA02426 /D TRADITIONAL /D MAX_SERVICE_THREAD_NUM=30 --max-process 128 --enable-socket-daemon 0

@@ -1,0 +1,5 @@
+#!/bin/sh
+ulimit -c unlimited
+ulimit -n 8192
+
+./magic_Linux32 /r ./ /e /csa/pack_data/lib_csa32.pak/csa/start_csa.o /b /csa/pack_data/lib_csa32.pak /s 32 /D _RELEASE /D AUTH= /D AUTH_MD5=767E51FE9E9A2F1EB5E689D74AA02426 /D CONFIG=csa/csa.ini  --max-process 128

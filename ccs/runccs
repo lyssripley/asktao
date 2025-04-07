@@ -1,0 +1,5 @@
+#!/bin/sh
+
+ulimit -c unlimited
+ulimit -n 8192
+./magic_Linux32 /r ./ /e /ccs/pack_data/lib_ccs32.pak/ccs/start_ccs.o /b /ccs/pack_data/lib_ccs32.pak -m ccs/ccsmem.cfg /D AUTH= /D AUTH_MD5=767E51FE9E9A2F1EB5E689D74AA02426 /D _RELEASE /D TRADITIONAL --max-process 128 --enable-socket-daemon 0
